@@ -26,8 +26,8 @@ module.exports = {
         test: /\.scss$/,
         use: [
           MiniCssExtractPlugin.loader,
-          "css-loader", // translates CSS into CommonJS
-          "sass-loader" // compiles Sass to CSS
+          { loader: "css-loader", options: { sourceMap: true } },
+          { loader: "sass-loader", options: { sourceMap: true } },
         ]
       }
     ]
