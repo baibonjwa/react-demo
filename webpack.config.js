@@ -61,6 +61,10 @@ module.exports = {
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({
       title: 'Development'
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'test.html',
+      template: 'src/assets/test.html'
     })
   ],
   output: {
