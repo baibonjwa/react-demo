@@ -1,9 +1,19 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-const HelloReact = () => (
+
+const HelloReact = ({ text }) => (
   <h1>
-    Hello World
+    {`Hello ${text}`}
   </h1>
 );
+
+HelloReact.propTypes = {
+  text: PropTypes.string,
+};
+
+HelloReact.defaultProps = {
+  text: 'React',
+}
 
 export default HelloReact;

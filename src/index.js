@@ -4,8 +4,8 @@ import HelloReact from './components/HelloReact';
 
 ReactDOM.render(
   <div>
-    <HelloReact />
-    <HelloReact />
+    <HelloReact text="World" />
+    <HelloReact text="Bai" />
     <HelloReact />
   </div>,
   document.getElementById('root'),
