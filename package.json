@@ -12,6 +12,7 @@
   "author": "Byron Bai",
   "license": "MIT",
   "devDependencies": {
+    "@babel/preset-react": "^7.0.0-beta.52",
     "babel-eslint": "^8.2.3",
     "clean-webpack-plugin": "^0.1.19",
     "css-loader": "^0.28.11",
